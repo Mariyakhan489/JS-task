@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Loops Task</title>
+</head>
+<link rel="stylesheet" href="style.css">
+<body>
+  <h1><u>JavaScript Loops</u></h1>
+  <p><strong>For Loop</strong> and <strong>While Loop</strong> with examples.</p>
+
+  <!-- FOR LOOP -->
+  <h2>For Loop</h2>
+  <table>
+    <tr>
+      <th>No.</th>
+      <th>Task</th>
+      <th>Description</th>
+      <th>Example Code</th>
+    </tr>
+    <tr>
+      <td>#1</td>
+      <td>Print Numbers 1-10</td>
+      <td>Displays numbers from 1 to 10</td>
+      <td><code>for(let i=1;i <= 10;i++){console.log(i);}</code></td>
+    </tr>
+    <tr>
+      <td>#2</td>
+      <td>Print all Even Numbers 1-20</td>
+      <td>Displays only even numbers: 2,4,6,...</td>
+      <td><code>for(let i=2;i <= 20;i += 2){console.log(i);}</code></td>
+    </tr>
+    <tr>
+      <td>#3</td>
+      <td>Multiplication Table of 5</td>
+      <td>Displays 5 × 1 = 5</td>
+      <td><code>for(let i=1;i <= 10;i++){console.log(5*i);}</code></td>
+    </tr>
+    <tr>
+      <td>#4</td>
+      <td>Print Reverse Order Numbers 10-1</td>
+      <td>Displays numbers 10, 9, 8 … 1</td>
+      <td><code>for(let i=10;i >= 1;i--){console.log(i);}</code></td>
+    </tr>
+  </table>
+
+  <!-- WHILE LOOP -->
+  <h2>While Loop</h2>
+  <table>
+    <tr>
+      <th class="colum">No.</th>
+      <th>Task</th>
+      <th>Description</th>
+      <th>Example Code</th>
+    </tr>
+    <tr>
+      <td>#1</td>
+      <td>Print Numbers 1-10</td>
+      <td>Counts from 1 to 10 using while loop</td>
+      <td><code>let i=1;while(i <= 10){console.log(i);i++;}</code></td>
+    </tr>
+    <tr>
+      <td>#2</td>
+      <td>Print all Odd Numbers 1-20</td>
+      <td>Displays only odd numbers: 1,3,5,…</td>
+      <td><code>let i=1;while(i <= 20){console.log(i);i += 2}</code></td>
+    </tr>
+    <tr>
+      <td>#3</td>
+      <td>Reverse Order 10-0</td>
+      <td>Displays numbers 10, 9, 8 … 0</td>
+      <td><code>let i=10;while(i >= 0){console.log(i);i--;}</code></td>
+    </tr>
+    <tr>
+      <td>#4</td>
+      <td>Password Checker</td>
+      <td>Keeps asking user until correct password (admin123) enter</td>
+      <td><code>let password=while(password !== "admin123")<br>
+                {password = prompt("Enter your password:");} <br>
+                alert("Welcome! Password is correct.");</code>
+      </td>
+    </tr>
+  </table>
+</body>
+<script src="script.js"></script>
+</html>
